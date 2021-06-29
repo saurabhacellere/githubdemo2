@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1506581456045" clover="4.0.6">
+   <project name="corona 0.6.5-SNAPSHOT (Aggregated)" timestamp="1506581450933">
+      <metrics coveredelements="0" complexity="4" loc="34" methods="4" classes="2" statements="10" packages="2" coveredconditionals="0" coveredmethods="0" elements="14" ncloc="24" files="2" conditionals="0" coveredstatements="0"/>
+      <package name="subproject">
+         <metrics coveredelements="0" complexity="2" loc="17" methods="2" classes="1" statements="5" coveredconditionals="0" coveredmethods="0" elements="7" ncloc="12" files="1" conditionals="0" coveredstatements="0"/>
+         <file path="subproject\src\main\java\subproject\DemoSubproject.java" name="DemoSubproject.java">
+            <metrics coveredelements="0" coveredconditionals="0" complexity="2" loc="17" coveredmethods="0" methods="2" elements="7" classes="1" ncloc="12" statements="5" conditionals="0" coveredstatements="0"/>
+            <class name="DemoSubproject">
+               <metrics coveredelements="0" coveredconditionals="0" complexity="2" coveredmethods="0" methods="2" elements="7" statements="5" conditionals="0" coveredstatements="0"/>
+            </class>
+            <line complexity="1" visibility="public" signature="main(String[]) : void" num="5" count="0" type="method"/>
+            <line num="6" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="unusedMethodSubproject(boolean) : boolean" num="9" count="0" type="method"/>
+            <line num="10" count="0" type="stmt"/>
+            <line num="12" count="0" type="stmt"/>
+            <line num="13" count="0" type="stmt"/>
+            <line num="15" count="0" type="stmt"/>
+         </file>
+      </package>
+      <package name="subproject2">
+         <metrics coveredelements="0" complexity="2" loc="17" methods="2" classes="1" statements="5" coveredconditionals="0" coveredmethods="0" elements="7" ncloc="12" files="1" conditionals="0" coveredstatements="0"/>
+         <file path="subproject2\src\main\java\subproject2\DemoSubproject2.java" name="DemoSubproject2.java">
+            <metrics coveredelements="0" coveredconditionals="0" complexity="2" loc="17" coveredmethods="0" methods="2" elements="7" classes="1" ncloc="12" statements="5" conditionals="0" coveredstatements="0"/>
+            <class name="DemoSubproject2">
+               <metrics coveredelements="0" coveredconditionals="0" complexity="2" coveredmethods="0" methods="2" elements="7" statements="5" conditionals="0" coveredstatements="0"/>
+            </class>
+            <line complexity="1" visibility="public" signature="main(String[]) : void" num="5" count="0" type="method"/>
+            <line num="6" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="unusedMethodSubproject(boolean) : boolean" num="9" count="0" type="method"/>
+            <line num="10" count="0" type="stmt"/>
+            <line num="12" count="0" type="stmt"/>
+            <line num="13" count="0" type="stmt"/>
+            <line num="15" count="0" type="stmt"/>
+         </file>
+      </package>
+   </project>
+   <testproject name="corona 0.6.5-SNAPSHOT (Aggregated)" timestamp="1506581450933">
+      <metrics coveredelements="2" complexity="2" loc="28" methods="2" classes="2" statements="2" packages="2" coveredconditionals="0" coveredmethods="1" elements="4" ncloc="18" files="2" conditionals="0" coveredstatements="1"/>
+      <package name="subproject">
+         <metrics coveredelements="2" complexity="1" loc="14" methods="1" classes="1" statements="1" coveredconditionals="0" coveredmethods="1" elements="2" ncloc="9" files="1" conditionals="0" coveredstatements="1"/>
+         <file path="subproject\src\test\java\subproject\DemoTest.java" name="DemoTest.java">
+            <metrics coveredelements="2" coveredconditionals="0" complexity="1" loc="14" coveredmethods="1" methods="1" elements="2" classes="1" ncloc="9" statements="1" conditionals="0" coveredstatements="1"/>
+            <class name="DemoTest">
+               <metrics coveredelements="2" complexity="1" methods="1" testruns="1" statements="1" coveredconditionals="0" coveredmethods="1" elements="2" testfailures="0" testduration="0.007" conditionals="0" coveredstatements="1" testpasses="1"/>
+            </class>
+            <line complexity="1" visibility="public" signature="testObject() : void" num="9" testsuccess="true" count="1" testduration="0.007" type="method"/>
+            <line num="11" count="1" type="stmt"/>
+         </file>
+      </package>
+      <package name="subproject2">
+         <metrics coveredelements="0" complexity="1" loc="14" methods="1" classes="1" statements="1" coveredconditionals="0" coveredmethods="0" elements="2" ncloc="9" files="1" conditionals="0" coveredstatements="0"/>
+         <file path="subproject2\src\test\java\subproject2\DemoTestSubproject2.java" name="DemoTestSubproject2.java">
+            <metrics coveredelements="0" coveredconditionals="0" complexity="1" loc="14" coveredmethods="0" methods="1" elements="2" classes="1" ncloc="9" statements="1" conditionals="0" coveredstatements="0"/>
+            <class name="DemoTestSubproject2">
+               <metrics coveredelements="0" coveredconditionals="0" complexity="1" coveredmethods="0" methods="1" elements="2" statements="1" conditionals="0" coveredstatements="0"/>
+            </class>
+            <line complexity="1" visibility="public" signature="testObject() : void" num="9" count="0" type="method"/>
+            <line num="11" count="0" type="stmt"/>
+         </file>
+      </package>
+   </testproject>
+</coverage>

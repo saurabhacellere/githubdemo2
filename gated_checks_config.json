@@ -1,0 +1,76 @@
+{
+  "added": {
+    "criticality": {
+      "critical": {
+        "error_threshold": -1
+      },
+      "high": {
+        "error_threshold": -1
+      },
+      "medium": {
+        "error_threshold": -1
+      },
+      "low": {
+        "error_threshold": -1
+      },
+      "info": {
+        "error_threshold": -1
+      }
+    },
+    "issues": [
+	  "StrConctInLogging",
+	  "InvalidLoggingClassName",
+	  "triple-equals",
+	  "BrokenNullCheck",
+	  "MisplacedNullCheck",
+	  "UseOfSysout",
+	  "UseOfSyserr",
+	  "NonThreadSafeSingleton",
+	  "AvoidThrowingNullPointerException",
+	  "AvoidCatchingGenericException",
+	  "PreserveStackTraceInLogs",
+	  "SignatureDeclareThrowsException",
+	  "PreserveStackTrace",
+	  "AvoidRethrowingException",
+	  "PositionLiteralsFirstInComparisons",
+	  "AvoidThrowingRawExceptionTypes",
+	  "PositionLiteralsFirstInCaseInsensitiveComparisons",
+	  "AvoidCatchingNPE",
+	  "AvoidCatchingThrowable",
+	  "BooleanInstantiation",
+	  "ExceptionAsFlowControl",
+	  "AvoidInstanceofChecksInCatchClause",
+	  "AvoidLosingExceptionInformation",
+	  "DoNotThrowExceptionInFinally",
+	  "CompareObjectsWithEquals",
+	  "OverrideBothEqualsAndHashcode",
+	  "AvoidUsingHardCodedIP",
+	  "use-switch-default",
+	  "use-typedef",
+	  "use-array-type",
+	  "prefer-array-literal",
+	  "avoid-magic-numbers"
+    ]
+  },
+  "existing": {
+    "criticality": {
+      "critical": {
+        "error_threshold": -1
+      },
+      "high": {
+        "error_threshold": -1
+      },
+      "medium": {
+        "error_threshold": -1
+      },
+      "low": {
+        "error_threshold": -1
+      },
+      "info": {
+        "error_threshold": -1
+      }
+    },
+    "issues": [
+    ]
+  }
+}
