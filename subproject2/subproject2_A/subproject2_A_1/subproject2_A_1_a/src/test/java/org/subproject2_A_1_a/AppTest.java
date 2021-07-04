@@ -3,6 +3,7 @@ package org.subproject2_A_1_a;
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
+import org.subproject2_A_1_a.*;
 
 /**
  * Unit test for simple App.
@@ -33,6 +34,6 @@ public class AppTest
      */
     public void testApp()
     {
-        assertTrue( true );
+        App.main(null);
     }
 }
