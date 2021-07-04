@@ -60,7 +60,7 @@
                                 {
                                     "name": "reportDir",
                                     "type": "upload",
-                                    "value": "",
+                                    "value": "%WORKSPACE%/subproject2/subproject2_A/subproject2_A_1/subproject2_A_1_a/target/site/clover",
                                     "required": true
                                 }
                             ]
