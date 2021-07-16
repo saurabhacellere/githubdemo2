@@ -1,8 +1,7 @@
 {
     "gammaAccess": {
-        "url": "",
-        "userName": "",
-        "password": ""
+        "url": "https://onpremisedemo.mygamma.io/",
+        "token": "eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTYyNjQxNDA0NzE1MywiaWF0IjoxNjI2NDE0MDQ3fQ.qSE6I7sS8kNbqk7LopdRCaJfXi5RWPxqhD4MAqLPv0cduRYddkBAg4X0Hjami5v4tQAvLEMt6iwuxGRnXSPDTA",
     },
     "repositories": [
         {
