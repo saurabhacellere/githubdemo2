@@ -1,82 +1,42 @@
 {
-    "gammaAccess": {
-        "url": "",
-        "token": "",
-    },
-    "repositories": [
-        {
-            "dataDir": "$WORKSPACE/temp",
-            "repository": {
-                "uid": "0bcea909aca9ef210989a2ce070adc3b",
-                "projectName": "githubdemo_jenkins",
-                "languages": [
-                    "JAVA"
-                ],
-                "sources": {
-                    "baseDir": "$WORKSPACE",
-                    "exclusions": []
-                }
-            },
-            "settings": {
-                "additionalOptions": [],
-                "includePaths": []
-            },
-            "modules": {
-                "codeissues": [
-                    {
-                        "name": "gamma_java",
-                        "enabled": true,
-                        "config": {
-                            "rules": [],
-                            "options": []
-                        }
-                    }
-                ],
-                "unittest": [
-                    {
-                        "name": "junit",
-                        "enabled": true,
-                        "config": {
-                            "rules": [],
-                            "options": [
-                                {
-                                    "name": "reportDir",
-                                    "type": "upload",
-                                    "value": "",
-                                    "required": true
-                                }
-                            ]
-                        }
-                    }
-                ],
-                "coverage": [
-                    {
-                        "name": "clover",
-                        "enabled": true,
-                        "config": {
-                            "rules": [],
-                            "options": [
-                                {
-                                    "name": "reportDir",
-                                    "type": "upload",
-                                    "value": "",
-                                    "required": true
-                                }
-                            ]
-                        }
-                    }
-                ],
-                "relevance": [
-                    {
-                        "name": "relevance",
-                        "enabled": true,
-                        "config": {
-                            "rules": [],
-                            "options": []
-                        }
-                    }
-                ]
-            }
-        }
-    ]
+	"gammaAccess": {
+		"url": "",
+		"token": ""
+	},
+	"repositories": [
+		{
+			"dataDir": "$WORKSPACE/temp",
+			"repository": {
+				"uid": "5e4384bcbe27ddacff695e49ffc66846",
+				"projectName": "cwa",
+				"languages": [
+					"JAVA" 
+				],
+				"sources": {
+					"baseDir": "$WORKSPACE",
+					"exclusions": []
+				}
+			},
+			"settings": {
+				"additionalOptions": [],
+				"includePaths": []
+			},
+			"modules": {
+				"relevance": [
+					{
+						"name": "relevance",
+						"config": {
+							"rules": [],
+							"options": [
+								{
+									"name": "mode",
+									"value": "git"
+								}
+							]
+						}
+					}
+				]
+			}
+		}
+	]
 }
