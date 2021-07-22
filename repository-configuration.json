@@ -5,7 +5,7 @@
     },
     "repositories": [
         {
-            "dataDir": "%WORKSPACE%/temp",
+            "dataDir": "$WORKSPACE/temp",
             "repository": {
                 "uid": "7ddaeb3fd1046c45d644a97fc393f3ca",
                 "projectName": "githubdemo_jenkins",
@@ -13,7 +13,7 @@
                     "JAVA"
                 ],
                 "sources": {
-                    "baseDir": "%WORKSPACE%",
+                    "baseDir": "$WORKSPACE",
                     "exclusions": []
                 }
             },
