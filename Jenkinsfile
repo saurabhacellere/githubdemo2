@@ -2,7 +2,6 @@ pipeline {
     agent any
     stages {
         stage('build') {
-            sh 'echo 'GIT_COMMIT****************''
             sh 'echo $GIT_COMMIT'
             
                 //sh 'mvn clean install'
