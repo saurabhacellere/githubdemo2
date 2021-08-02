@@ -14,7 +14,7 @@
 				],
 				"sources": {
 					"baseDir": "$WORKSPACE",
-					"exclusions": ["subproject2"]
+					"exclusions": ["subproject"]
 				}
 			},
 			"settings": {
