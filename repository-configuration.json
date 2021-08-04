@@ -1,7 +1,7 @@
 {
 	"gammaAccess": {
-		"url": "",
-		"token": ""
+		"url": "http://192.168.2.38:3001/",
+		"token": "eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTYyODA2NTAxOTcyMSwiaWF0IjoxNjI4MDY1MDE5fQ.RehuKmSsWu7BaRvNgKGBMreOsy4d1GHXju53ujAr5QQLqqOOG48_sf7l4L_9aHcq40_hSWSiMR2coR4kXTJutQ"
 	},
 	"repositories": [
 		{
