@@ -13,8 +13,8 @@
 					"JAVA" 
 				],
 				"sources": {
-					"baseDir": "$WORKSPACE",
-					"exclusions": ["subproject"]
+					"baseDir": "/var/jenkins_home/jobs/Githubdemo_pipeline2/workspace",
+					"exclusions": []
 				}
 			},
 			"settings": {
