@@ -6,7 +6,7 @@ pipeline {
                 sh 'echo $GIT_COMMIT'
                 sh 'echo $GIT_PREVIOUS_SUCCESSFUL_COMMIT'
                 sh 'git diff --name-only --oneline be4574bc84a17fdb3e6ab896dda215045213969d 1370b85cc45a2ed59ff52a4b580897a8418c7b44'
-                sh "pwd >> .\filelist.txt"
+                sh "echo foo > result"
               //  sh 'git diff --name-only --oneline $GIT_PREVIOUS_SUCCESSFUL_COMMIT $GIT_COMMIT > .\filelist.txt'
              //   sh '/home/nilesh/jenkins_home/embold_ci_cd_wrapper-1.0-SNAPSHOT/bin/embold-cl-cd-wrapper -c .\repository-configuration.json -lf .\filelist.txt'
              //   sh 'mvn clean install'
