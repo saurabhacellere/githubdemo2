@@ -5,7 +5,7 @@ pipeline {
             steps {
                 sh 'echo $GIT_COMMIT'
                 sh 'echo $GIT_PREVIOUS_SUCCESSFUL_COMMIT'
-                sh 'git diff --name-only --oneline be4574bc84a17fdb3e6ab896dda215045213969d 1370b85cc45a2ed59ff52a4b580897a8418c7b44'
+                sh "git diff --name-only --oneline be4574bc84a17fdb3e6ab896dda215045213969d 1370b85cc45a2ed59ff52a4b580897a8418c7b44 > result2.txt"
                 sh "echo foo > result.txt"
               //  sh 'git diff --name-only --oneline $GIT_PREVIOUS_SUCCESSFUL_COMMIT $GIT_COMMIT > .\filelist.txt'
              //   sh '/home/nilesh/jenkins_home/embold_ci_cd_wrapper-1.0-SNAPSHOT/bin/embold-cl-cd-wrapper -c .\repository-configuration.json -lf .\filelist.txt'
