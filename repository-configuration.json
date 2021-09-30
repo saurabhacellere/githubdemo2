@@ -13,7 +13,7 @@
 					"JAVA" 
 				],
 				"sources": {
-					"baseDir": "/var/jenkins_home/jobs/Githubdemo_pipeline2/workspace",
+					"baseDir": "$WORKSPACE",
 					"exclusions": []
 				}
 			},
