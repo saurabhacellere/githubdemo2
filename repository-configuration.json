@@ -7,7 +7,7 @@
 		{
 			"dataDir": "$WORKSPACE/temp",
 			"repository": {
-				"uid": "6b2e26ad30cc78cbf9db2a1785fd34f0",
+				"uid": "75b058cd126d1316af094632dfc47b01",
 				"projectName": "cwa",
 				"languages": [
 					"JAVA" 
