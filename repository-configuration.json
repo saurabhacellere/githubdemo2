@@ -1,42 +1,188 @@
 {
-	"gammaAccess": {
-		"url": "http://192.168.2.38:3001/",
-		"token": "eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTYyODA2NTAxOTcyMSwiaWF0IjoxNjI4MDY1MDE5fQ.RehuKmSsWu7BaRvNgKGBMreOsy4d1GHXju53ujAr5QQLqqOOG48_sf7l4L_9aHcq40_hSWSiMR2coR4kXTJutQ"
-	},
-	"repositories": [
-		{
-			"dataDir": "$WORKSPACE/temp",
-			"repository": {
-				"uid": "75b058cd126d1316af094632dfc47b01",
-				"projectName": "cwa",
-				"languages": [
-					"JAVA" 
-				],
-				"sources": {
-					"baseDir": "$WORKSPACE",
-					"exclusions": []
-				}
-			},
-			"settings": {
-				"additionalOptions": [],
-				"includePaths": []
-			},
-			"modules": {
-				"relevance": [
-					{
-						"name": "relevance",
-						"config": {
-							"rules": [],
-							"options": [
-								{
-									"name": "mode",
-									"value": "git"
-								}
-							]
-						}
-					}
-				]
-			}
-		}
-	]
+    "gammaAccess": {
+        "url": "",
+        "token": ""
+    },
+    "repositories": [
+        {
+            "dataDir": "",
+            "repository": {
+                "uid": "abe7783bb91034b8bf27dec8a2e18c33",
+                "projectName": "clover",
+                "languages": [
+                    "JAVA"
+                ],
+                "sources": {
+                    "baseDir": "",
+                    "exclusions": [
+                        "(?i)(test|generated|mock|thirdparty|third-party|3rd-party|3rdparty|external)"
+                    ]
+                }
+            },
+            "settings": {
+                "additionalOptions": [],
+                "includePaths": []
+            },
+            "modules": {
+                "report_processor": [
+                    {
+                        "name": "ext_report_processor",
+                        "enabled": true,
+                        "config": {
+                            "rules": [],
+                            "options": [
+                                {
+                                    "name": "dem.reportDir",
+                                    "type": "upload",
+                                    "value": "",
+                                    "required": true
+                                },
+                                {
+                                    "name": "dem.reportFile",
+                                    "type": "upload",
+                                    "value": "",
+                                    "required": true
+                                },
+                                {
+                                    "name": "memory.reportDir",
+                                    "type": "upload",
+                                    "value": "",
+                                    "required": true
+                                },
+                                {
+                                    "name": "memory.reportFile",
+                                    "type": "upload",
+                                    "value": "",
+                                    "required": true
+                                },
+                                {
+                                    "name": "ameos.reportDir",
+                                    "type": "upload",
+                                    "value": "",
+                                    "required": true
+                                },
+                                {
+                                    "name": "ameos.reportFile",
+                                    "type": "upload",
+                                    "value": "",
+                                    "required": true
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "codeissues": [
+                    {
+                        "name": "pmd",
+                        "enabled": true,
+                        "config": {
+                            "rules": [],
+                            "options": [
+                                {
+                                    "name": "javaVersion",
+                                    "type": "text",
+                                    "value": "1.8",
+                                    "required": false
+                                },
+                                {
+                                    "name": "ruleSets",
+                                    "type": "text",
+                                    "value": "",
+                                    "required": true
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "name": "gamma_generic",
+                        "enabled": true,
+                        "config": {
+                            "rules": [],
+                            "options": [
+                                {
+                                    "name": "reportDir",
+                                    "type": "upload",
+                                    "value": "",
+                                    "required": true
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "name": "gamma_java",
+                        "enabled": true,
+                        "config": {
+                            "rules": [],
+                            "options": []
+                        }
+                    }
+                ],
+                "unittest": [
+                    {
+                        "name": "junit",
+                        "enabled": true,
+                        "config": {
+                            "rules": [],
+                            "options": [
+                                {
+                                    "name": "reportDir",
+                                    "type": "upload",
+                                    "value": "",
+                                    "required": true
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "coverage": [
+                    {
+                        "name": "jacoco",
+                        "enabled": true,
+                        "config": {
+                            "rules": [],
+                            "options": [
+                                {
+                                    "name": "binaryReportPath",
+                                    "type": "upload",
+                                    "value": "",
+                                    "required": false
+                                },
+                                {
+                                    "name": "xmlReportPath",
+                                    "type": "upload",
+                                    "value": "",
+                                    "required": false
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "name": "clover",
+                        "enabled": true,
+                        "config": {
+                            "rules": [],
+                            "options": [
+                                {
+                                    "name": "reportDir",
+                                    "type": "upload",
+                                    "value": "",
+                                    "required": true
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "relevance": [
+                    {
+                        "name": "relevance",
+                        "enabled": true,
+                        "config": {
+                            "rules": [],
+                            "options": []
+                        }
+                    }
+                ]
+            }
+        }
+    ]
 }
