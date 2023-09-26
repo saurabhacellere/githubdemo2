@@ -5,7 +5,7 @@
     },
     "repositories": [
         {
-            "dataDir": "",
+            "dataDir": "$WORKSPACE/temp",
             "repository": {
                 "uid": "abe7783bb91034b8bf27dec8a2e18c33",
                 "projectName": "clover",
@@ -13,7 +13,7 @@
                     "JAVA"
                 ],
                 "sources": {
-                    "baseDir": "",
+                    "baseDir": "$WORKSPACE",
                     "exclusions": [
                         "(?i)(test|generated|mock|thirdparty|third-party|3rd-party|3rdparty|external)"
                     ]
